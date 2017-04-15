@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>IDR</item>
+        <item>SGD</item>
+        <item>AUD</item>
+        <item>CHF</item>
+        <item>CAD</item>
+        <item>ZAR</item>
+    </string-array>
+</resources>

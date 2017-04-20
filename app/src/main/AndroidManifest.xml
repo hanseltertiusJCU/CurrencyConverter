@@ -4,7 +4,9 @@
 
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!--To be able to access the internet in order to access the code from url-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--To be able to access the AJAX, useful for the core of the code(results of conversion)-->
 
 
     <application
@@ -21,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondaryActivity"></activity>
     </application>
 
 </manifest>

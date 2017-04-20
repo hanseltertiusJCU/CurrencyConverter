@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CurrencyConverter</string>
+    <string name="button_convert">Convert</string>
+    <string name="action_settings">Settings</string>
+    <string name="metric">Metric?</string>
+
 </resources>

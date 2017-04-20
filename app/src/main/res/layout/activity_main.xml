@@ -5,69 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.hansel.currencyconverter.MainActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <EditText
-            android:id="@+id/editText_currency"
-            android:layout_width="384dp"
-            android:layout_height="40dp"
+            android:id="@+id/editText_convert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:ems="10"
-            android:inputType="number"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:inputType="number" />
 
         <Spinner
             android:id="@+id/spinner_from"
-            android:layout_width="390dp"
-            android:layout_height="35dp"
-            tools:layout_editor_absoluteX="-3dp"
-            tools:layout_editor_absoluteY="85dp" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" />
 
         <Spinner
             android:id="@+id/spinner_to"
-            android:layout_width="390dp"
-            android:layout_height="35dp"
-            tools:layout_editor_absoluteX="-3dp"
-            tools:layout_editor_absoluteY="149dp" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/button_convert"
-            android:layout_width="384dp"
-            android:layout_height="48dp"
-            android:text="Convert"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="211dp" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.80"
+            android:text="@string/button_convert" />
 
         <TextView
             android:id="@+id/textView_from"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="Hello World!"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.575" />
+            android:text="From"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/textView_to"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Hello World!"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.721" />
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="To"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     </LinearLayout>
+
+
 </LinearLayout>
